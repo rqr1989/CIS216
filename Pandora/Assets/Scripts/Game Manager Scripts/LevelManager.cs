@@ -55,7 +55,7 @@ if (levelsUnlocked < 9) {
     //save new value to levelsUnlocked
     PlayerPrefs.SetInt("levelsUnlocked", levelsUnlocked);
 }
-    else if (levelsUnlocked > 9){
+    else if (levelsUnlocked >= 9){
 
     //load the credits scene
      SceneManager.LoadScene(10);
@@ -81,6 +81,7 @@ if (levelsUnlocked < 9) {
 
         //load level 2
          SceneManager.LoadScene(2);
+
     }
 
     //else if levelsUnlocked equals 3
