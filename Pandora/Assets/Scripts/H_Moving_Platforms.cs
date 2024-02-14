@@ -13,9 +13,9 @@ public class H_Moving_Platforms : MonoBehaviour
 
     [Header("Movement Parameters")]
     [SerializeField] private float speed;
-
     private Vector3 initScale;
     private bool movingLeft;
+
     [Header("Idle Time")]
 
     [SerializeField] private float idleDuration;
