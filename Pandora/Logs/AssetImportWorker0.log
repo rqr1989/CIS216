@@ -15,11 +15,11 @@ C:/Users/donto/OneDrive/Documents/GitHub/CIS216/Pandora
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50391
+51203
 Successfully changed project path to: C:/Users/donto/OneDrive/Documents/GitHub/CIS216/Pandora
 C:/Users/donto/OneDrive/Documents/GitHub/CIS216/Pandora
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.179201 seconds.
+Registered in 0.001210 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.655 seconds
+- Completed reload, in  0.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4655ms)
-		BeginReloadAssembly (3423ms)
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (3422ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (558ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (150ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (129ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.530446 seconds.
+Registered in 0.005688 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.739 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5744ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (5595ms)
-			LoadAssemblies (3061ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1083ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1284ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (804ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.640000 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.409100 ms  DeleteObjects: 0.054500 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 2.415700 ms (FindLiveObjects: 0.122800 ms CreateObjectMapping: 0.033800 ms MarkObjects: 2.180700 ms  DeleteObjects: 0.077100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,81 +131,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Health_bar-sheet.png
-  artifactKey: Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Health_bar-sheet.png using Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382ce3d4cd5c5cf6a80b109ae2fed24') in 0.081645 seconds 
-  Import took 0.086202 seconds .
+  path: Assets/Pause button.png
+  artifactKey: Guid(480b2d2287b80684295b2e94aad109ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pause button.png using Guid(480b2d2287b80684295b2e94aad109ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b7f047bd20ab83a535f4a682c6f9fd') in 0.095738 seconds 
+  Import took 0.100113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Lives_symbol_Jar.png
-  artifactKey: Guid(263b822b8689c4e48b32c7d23b2995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lives_symbol_Jar.png using Guid(263b822b8689c4e48b32c7d23b2995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3df28a2e6b5b38abd809b2563fbe2e') in 0.018716 seconds 
-  Import took 0.023875 seconds .
+  Time since last request: 492.539649 seconds.
+  path: Assets/settings menu button.png
+  artifactKey: Guid(49da81e7def3a6f4b851873f1a22c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/settings menu button.png using Guid(49da81e7def3a6f4b851873f1a22c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bad1c4e701ac4aa45eed8a638f0eb48') in 0.017618 seconds 
+  Import took 0.023797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.021420 seconds.
-  path: Assets/mana_bar-sheet.png
-  artifactKey: Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mana_bar-sheet.png using Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbb3d3a80762de910f0f36527008bb6') in 0.019781 seconds 
-  Import took 0.025543 seconds .
+  Time since last request: 165.130260 seconds.
+  path: Assets/settings menu button fin.png
+  artifactKey: Guid(2e8154f245da30645b6786f0c5a1d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/settings menu button fin.png using Guid(2e8154f245da30645b6786f0c5a1d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582da7faca624ca147b7026783fe7e4e') in 0.015401 seconds 
+  Import took 0.020551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 241.921323 seconds.
-  path: Assets/New Animation.anim
-  artifactKey: Guid(c0dbe4c8707fc0f4da21b28d88d6c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Animation.anim using Guid(c0dbe4c8707fc0f4da21b28d88d6c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3b5a4786a68cb1785cf077ec2715c3') in 0.022783 seconds 
-  Import took 0.027560 seconds .
+  Time since last request: 322.402066 seconds.
+  path: Assets/settings menu button 3.png
+  artifactKey: Guid(cc347ee374ca70e4f9d2cd7867a2a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/settings menu button 3.png using Guid(cc347ee374ca70e4f9d2cd7867a2a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a85a7d7cb30b82287564acdaaab09d') in 0.016275 seconds 
+  Import took 0.021839 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 234.427619 seconds.
-  path: Assets/Health_bar-sheet.png
-  artifactKey: Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Health_bar-sheet.png using Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d397e900e29c9fcf381e6fecf33f5c') in 0.030172 seconds 
-  Import took 0.036106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.283139 seconds.
-  path: Assets/Health_bar-sheet.png
-  artifactKey: Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Health_bar-sheet.png using Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e93d34551296f443e0fdc8ddfad23e') in 0.037666 seconds 
-  Import took 0.043465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.514094 seconds.
-  path: Assets/Health_bar-sheet.png
-  artifactKey: Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Health_bar-sheet.png using Guid(97048d24267ba6f488cc0a7f8ff1309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37d33732cfc7ff68042465d3b3527a1') in 0.046118 seconds 
-  Import took 0.050949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.406886 seconds.
-  path: Assets/mana_bar-sheet.png
-  artifactKey: Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mana_bar-sheet.png using Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd477a33e9918fb2d6d098401359a4957') in 0.028850 seconds 
-  Import took 0.034152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.372181 seconds.
-  path: Assets/mana_bar-sheet.png
-  artifactKey: Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mana_bar-sheet.png using Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a4d8d8c8f6cef5ce6d16edd87761a9') in 0.051609 seconds 
-  Import took 0.056054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.611786 seconds.
-  path: Assets/mana_bar-sheet.png
-  artifactKey: Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mana_bar-sheet.png using Guid(6f3ee95acc79d0445b63ef8c4a008dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5963bfd5a3e63701edc7048a10229417') in 0.045982 seconds 
-  Import took 0.050911 seconds .
+  Time since last request: 80.568504 seconds.
+  path: Assets/settings menu button 4.png
+  artifactKey: Guid(71cb4a207f033f54c82f3bca1dbb2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/settings menu button 4.png using Guid(71cb4a207f033f54c82f3bca1dbb2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01db6699399ed6221a8dca79ff8ce311') in 0.016165 seconds 
+  Import took 0.020950 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
